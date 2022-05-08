@@ -96,7 +96,7 @@ public class ModifyUserDmo
 			Thread.sleep(2000);
 			oBrowser.findElement(By.name("firstName")).clear();
 			Thread.sleep(2000);
-			oBrowser.findElement(By.name("firstName")).sendKeys("Sample");
+			oBrowser.findElement(By.name("firstName")).sendKeys("Sample2");
 			Thread.sleep(2000);
 			oBrowser.findElement(By.xpath("//span [text()='Save Changes']")).click();
 			Thread.sleep(10000);
